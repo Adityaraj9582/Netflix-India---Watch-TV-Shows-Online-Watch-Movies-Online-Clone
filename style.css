@@ -98,8 +98,9 @@ nav>div>button {
     background-color: red;
     padding: 3px 24px;
     font-size: 20px;
-    border-radius: 4px;
-    font-weight: 400;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: calc(0.25rem - 0.0625rem);
 
 }
 .btn-red-sm{
@@ -109,10 +110,11 @@ nav>div>button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 0 2rem;
     gap: 7px;
 }
 
-.main  .hero-buttons > input{
+.hero-buttons > input{
     /* background:none; */
     background-color: rgba(23,23,23,0.7);
     color: white;
